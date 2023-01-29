@@ -1,0 +1,92 @@
+body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background-image: url("../img/background_image.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 1080px;
+}
+
+.user_card{
+	width: 350px;
+	height: 400px;
+	top: 120px;
+	margin-top: auto;
+	margin-bottom: auto;
+	background-color: rgba(44, 62, 80, 0.7);
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 5px;
+}
+
+.container img{
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	top: -50px;
+	left: 103px;
+	border-radius: 50%;
+	text-align: center;
+	border: 3px solid black;
+}
+
+.form_container{
+	margin-top: 100px;
+}
+
+.login_btn{
+	width: 100%;
+	background: #ff9801 !important;
+	color: black !important;
+}
+.login_btn:focus{
+	box-shadow: none !important;
+	outline: 0px !important;
+}
+
+.login_btn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.login-container{
+	padding: 0 2rem;
+}
+
+.input-group-text{
+	background: #ff9801 !important;
+	color: black !important;
+	border: 0 !important;
+	border-radius: 0.25rem 0 0 0.25rem !important;
+}
+.input_user,
+.input_pass: focus{
+	box-shadow: none !important;
+	outline: 0px !important;
+}
+
+.custom-checkbox .custom-control-input:checked .custom-control-label::before{
+	background-color: #ff9801 !important;
+}
+.custom-control-label{
+	color: white;
+}
+
+.fa-user-large{
+	font-size: 30px;
+}
+.fa-key{
+	font-size: 30px;
+}
+.links{
+	color: white;
+}
+
+.for{
+	color: red;
+}
